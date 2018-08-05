@@ -1,0 +1,32 @@
+body {    
+    margin:0px;
+    padding:0px;    
+    background:#DCDCDC;    
+     }
+
+#squareRed {
+    height: 500px;
+    width: 500px;
+    z-index: 1;
+    background:#800000;
+    }
+
+    #squareBlue {
+        position: absolute;
+        left: 750px;
+        top: 350px;
+        height: 500px;
+        width: 500px;
+        z-index: 2;
+        background:#0000FF;
+        }
+
+    #squareGreen {
+        position: absolute;
+        left: 450px;
+        top: 150px;
+        height: 500px;
+        width: 500px;
+        z-index: 3;
+        background:#008000;
+        }        
